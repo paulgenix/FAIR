@@ -3,6 +3,12 @@ title: Explore the map
 full_width: true
 ---
 
+<script>
+  // Prepend the deployment base path (e.g. /FAIR) so static assets in
+  // static/ resolve under GitHub Pages. Empty string when no base path.
+  import { base } from '$app/paths';
+</script>
+
 FAIR
 penetration averages a single-digit share of homes; in the foothill interior it becomes the
 primary market (Tuolumne reaches ~50% at the county level, and the worst ZIPs exceed 70%).
@@ -25,7 +31,7 @@ from fairplan.map_county m
 left join fairplan.n9_county_fair_vs_income n on m.county = n.county
 ```
 
-<AreaMap data={county_map} geoJsonUrl='/ca_counties.geojson' geoId=fips
+<AreaMap data={county_map} geoJsonUrl={`${base}/ca_counties.geojson`} geoId=fips
   areaCol=fips value=fair_penetration valueFmt='0.0%'
     height=600
   tooltip={[
