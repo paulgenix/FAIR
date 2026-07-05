@@ -1,3 +1,8 @@
+deployment:
+  # Must match the GitHub repo name so assets resolve under
+  # https://<user>.github.io/<repo>/  — here: /FAIR
+  basePath: /FAIR
+
 appearance:
   default: system
   switcher: true
