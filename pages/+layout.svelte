@@ -5,6 +5,6 @@
 	export let data;
 </script>
 
-<EvidenceDefaultLayout {data} builtWithEvidence={false} title="Who Pays for the FAIR Plan" homePageName="Intro" homePageUrl="/" hideBreadcrumbs=true >
+<EvidenceDefaultLayout {data} builtWithEvidence={false} title="Who Pays for the FAIR Plan" homePageName="Intro" homePageUrl="/" hideBreadcrumbs=true neverShowQueries=true >
 	<slot slot="content" />
 </EvidenceDefaultLayout>
