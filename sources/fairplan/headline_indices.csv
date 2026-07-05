@@ -1,0 +1,2 @@
+ci_exposure_by_income,ci_penetration_by_income,suits_cost_vs_income,kakwani_benefit_vs_income,reg_log_income_beta,reg_log_income_pvalue,reg_risk_score_beta,reg_r2,moran_I_penetration
+0.293,-0.207,0.152,0.068,-0.0666,2.4e-23,0.1604,0.529,0.645

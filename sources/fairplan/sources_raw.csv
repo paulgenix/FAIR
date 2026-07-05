@@ -1,0 +1,23 @@
+source,provider,format,coverage,files,notes
+FAIR Plan exposure (TIV) by ZIP — All / Residential / Commercial,CA FAIR Plan,PDF,FY2021–FY2025,3,
+FAIR Plan policies in force (PIF) by ZIP — All / Residential / Commercial,CA FAIR Plan,PDF,FY2021–FY2025,3,
+FAIR Plan exposure (TIV) by County,CA FAIR Plan,PDF,FY2021–FY2025,1,
+FAIR Plan PIF by County,CA FAIR Plan,PDF,FY2021–FY2025,1,
+FAIR Plan policies by category — Res / Com under-20M / Com over-20M,CA FAIR Plan,PDF,Mar 2026,3,Carries the per-ZIP wildfire risk score + distressed flag; commercial not used.
+FAIR Plan exposure by category — Res / Com under-20M / Com over-20M,CA FAIR Plan,PDF,Mar 2026,3,Commercial parsed but excluded (residential-only analysis).
+FAIR Plan written premium by category — Res / Com under-20M / Com over-20M,CA FAIR Plan,PDF,Mar 2026,3,Commercial parsed but excluded (residential-only analysis).
+FAIR Plan wildfire-hardening discount schedule,CA FAIR Plan,PDF,Nov 2025,1,
+FAIR Plan reporting-period-change notice,CA FAIR Plan,PDF,2025,1,
+Residential insurance by ZIP (new / renewed / non-renewed + FAIR counts),CDI,XLSX,2015–2021 & 2020–2023,2,
+Residential insurance by County,CDI,PDF,2015–2021 & 2020–2023,2,
+Residential-market fact sheets,CDI,PDF,2015–2023,7,
+SB 824 moratorium bulletins,CDI,PDF,2020–2026,28,
+Other CDI reports (Order 2025-1 assessment; FAIR-vs-voluntary; investigatory hearing; stipulated order; progress report; availability & affordability app. C; agricultural; climate survey; grants; Safer-from-Wildfire FAQ),CDI,PDF,2021–2025,12,
+CDI policy & regulation (Sustainable Insurance Strategy; distressed counties; undermarketed ZIPs; catastrophe-modeling regulation; insurer commitments),CDI,PDF,2023–2025,9,
+Earthquake coverage study (exposure / premium / policy count + PML reports),CDI,PDF,2001–2024,28,Market-size context; not wildfire; not in the panel.
+P&C market-share reports — homeowners / dwelling-fire lines (+ 2024 summary PDFs),CDI / NAIC,XLSX + PDF,2016–2024,14,
+ACS 5-year — income B19013; value B25077; households/tenure B25003; vintage B25035; population B01003,US Census Bureau,API,ACS 2019–2023,0,Fetched via the Census API; no local raw file.
+HUD–USPS TRACT→ZIP crosswalk,HUD PD&R,XLSX,2025 Q4,1,TRACT_ZIP_122025.xlsx.
+FEMA National Risk Index — tract / county / state tables + dictionaries,FEMA,CSV,NRI Dec 2025,12,Downloaded but deferred — not used as a covariate.
+Zillow Home Value Index (ZHVI) by ZIP,Zillow,CSV,monthly series,1,
+LA County parcels with DINS damage tags,LA County / CAL FIRE,CSV,2025,1,2025 Palisades/Eaton case study.

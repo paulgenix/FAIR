@@ -1,0 +1,31 @@
+fire,county,acres,containment_pct,started,active
+Santa Rosa Island Fire,Santa Barbara,18379.0,97.0,2026-05-15,Contained/out
+Lost Fire,Kern,7834.0,100.0,2026-06-18,Contained/out
+Springs Fire,Riverside,4176.0,100.0,2026-04-03,Contained/out
+River Fire,Kern,3535.0,100.0,2026-05-18,Contained/out
+Shore Fire,Riverside,3085.0,100.0,2026-06-15,Contained/out
+Border 6 Fire,San Diego,2525.0,100.0,2026-06-01,Contained/out
+Rowlee Fire,Kern,2520.0,100.0,2026-05-14,Contained/out
+Tower Fire,Kern,2469.0,100.0,2026-05-03,Contained/out
+Canyon Fire,Kern,2278.0,100.0,2026-05-07,Contained/out
+Sandy Fire,Ventura,2183.0,100.0,2026-05-18,Contained/out
+Tumey Fire,Fresno,1647.0,100.0,2026-04-19,Contained/out
+Waltz Fire,Mariposa,1644.0,100.0,2026-06-05,Contained/out
+Bain Fire,Riverside,1473.0,100.0,2026-05-19,Contained/out
+Mateo Fire,San Diego,1377.0,100.0,2026-06-15,Contained/out
+Paramount Fire,Kings,1280.0,100.0,2026-03-25,Contained/out
+Macy Fire,"Kern, Los Angeles",1194.0,100.0,2026-06-05,Contained/out
+Wyly Fire,Kern,1075.0,100.0,2026-06-13,Contained/out
+Foothill Fire ,Santa Barbara,904.0,100.0,2026-05-19,Contained/out
+Putah Fire,Yolo,860.0,100.0,2026-06-08,Contained/out
+Tusil Fire,San Diego,820.0,100.0,2026-05-19,Contained/out
+Lincoln Fire,Merced,734.0,100.0,2026-06-16,Contained/out
+Romero Fire,Modoc,699.0,100.0,2026-06-28,Contained/out
+Brite Fire,Kern,665.0,100.0,2026-05-09,Contained/out
+Point Fire,Merced,650.0,100.0,2026-07-01,Active
+Verona Fire,Riverside,638.0,100.0,2026-05-19,Contained/out
+Range Fire,San Diego,429.0,80.0,2026-06-30,Active
+Chloe Fire ,Los Angeles,282.0,52.0,2026-07-01,Active
+Nash Fire,San Bernardino,125.0,,2026-07-02,Active
+Sandy Fire,Kern,99.0,90.0,2026-06-21,Active
+Bridge Fire,Fresno,48.0,100.0,2026-07-01,Active

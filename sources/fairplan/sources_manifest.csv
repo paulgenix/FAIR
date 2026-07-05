@@ -1,0 +1,4 @@
+dataset,url,as_of,downloaded_at,sha256,path
+hud_tract_zip,https://www.huduser.gov/hudapi/public/usps?type=6&query=CA&year=2023&quarter=1,2023Q1,2026-06-15T19:36:16+00:00,a06e5e3cfdf583f7d5ea2f5be709668d8ec1290a0dcc70c08e5667a8d79f4304,data/raw/HUD USPS Crosswalk/TRACT_ZIP_2023Q1.csv
+zcta_2020,https://www2.census.gov/geo/tiger/GENZ2020/shp/cb_2020_us_zcta520_500k.zip,2020,2026-06-15T20:12:56+00:00,c69a4ede8aebebfc7ed3a98a9075c6aaa1b75d514a129bc5c662fd806d2f3d17,data/raw/zcta/cb_2020_us_zcta520_500k.zip
+acs_controls_b25035_b01003,"https://api.census.gov/data/2023/acs/acs5?get=B25035_001E,B01003_001E&for=tract:*&in=state:06",2023,2026-06-21T17:08:49+00:00,7a7f995384c497f6fd603d66fa787e7b206ca41e42c41751e586ec38f261b5f8,data/interim/acs_controls_tract.parquet

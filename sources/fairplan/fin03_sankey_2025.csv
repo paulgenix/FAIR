@@ -1,0 +1,9 @@
+source,target,value,category
+Net premiums earned,Funds available,698370142,revenue
+Net investment gain,Funds available,47102859,revenue
+Other income,Funds available,2289323,revenue
+Member assessment ($1B),Funds available,1000000000,capital
+Drawdown of surplus/deficit,Funds available,581014410,deficit
+Funds available,Losses incurred,2024766579,expense
+Funds available,Loss adjustment expenses,73807449,expense
+Funds available,Other underwriting expenses,230202706,expense

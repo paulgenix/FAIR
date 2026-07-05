@@ -1,0 +1,31 @@
+column,definition,units,source,grain,notes
+zip,5-digit USPS ZIP (primary key),-,FAIR Plan,ZIP,zero-padded string
+residential_tiv,"Residential total insured value, latest snapshot",$,FAIR exposure,ZIP,FY2025 (30 Sep 2025)
+pif,"Residential policies in force, latest snapshot",policies,FAIR PIF,ZIP,FY2025
+written_premium,Residential written premium,$,FAIR premium,ZIP,Mar 2026 category file
+fair_risk_score,"Policy-weighted wildfire risk (Low=1,Med=2,High=3)",1-3,FAIR category,ZIP,derived
+pct_high_risk,Share of policies in the High wildfire tier,share,FAIR category,ZIP,derived
+distressed_flag,FAIR 'Is Distressed Area' flag,bool,FAIR category,ZIP,-
+hazard_bucket,Low/Medium/High (equal thirds of risk score),category,derived,ZIP,Path A
+median_hh_income,Median household income,$,ACS B19013,ZIP,hh-weighted tract->ZIP
+median_home_value_acs,Median home value (ACS),$,ACS B25077,ZIP,owner-weighted tract->ZIP
+zhvi,"Zillow Home Value Index (AVM, not a median)",$,Zillow,ZIP,"ZIP-native, latest month; robustness cross-check"
+households,Occupied housing units,count,ACS B25003,ZIP,res_ratio-allocated
+owner_units,Owner-occupied units,count,ACS B25003,ZIP,res_ratio-allocated
+admitted_in_force,Admitted new+renewed policies,policies,CDI,ZIP,year 2023
+nonrenew_total,Total non-renewals,policies,CDI,ZIP,year 2023
+nonrenew_insurer_initiated,Insurer-initiated non-renewals (retreat signal),policies,CDI,ZIP,NA after 2021 (not reported)
+nonrenew_insured_initiated,Insured-initiated non-renewals,policies,CDI,ZIP,NA after 2021 (not reported)
+sb824_moratorium_flag,SB 824 moratorium ZIP-year (best-effort),bool,CDI bulletins,ZIP,year 2023
+fair_penetration,"pif / (pif + admitted), year-aligned",ratio,derived,ZIP,year 2023
+exposure_share_statewide,ZIP residential TIV / statewide total,share,derived,ZIP,FY2025
+income_decile,Equal-count income decile (1=low),1-10,derived,ZIP,qcut by ZIP
+value_decile,Equal-count home-value decile (1=low),1-10,derived,ZIP,qcut by ZIP
+fema_wildfire_eal,FEMA wildfire expected annual loss,$,FEMA NRI,ZIP,DEFERRED (bot-blocked)
+fema_sovi,FEMA social vulnerability,score,FEMA NRI,ZIP,DEFERRED (bot-blocked)
+n_tracts_contributing,Tracts contributing to the ACS aggregation,count,diagnostic,ZIP,-
+agg_weight_total,Total household weight in the ACS aggregation,weight,diagnostic,ZIP,-
+acs_matched,ACS income joined non-null,bool,provenance,ZIP,-
+fema_matched,FEMA joined non-null,bool,provenance,ZIP,False (deferred)
+hazard_matched,Hazard score joined non-null,bool,provenance,ZIP,-
+cdi_matched,CDI admitted joined non-null,bool,provenance,ZIP,-
