@@ -109,5 +109,4 @@ outcomes, and no design dominates on every criterion.
 
 ---
 
-That's the steady-state incidence. Then January 2025 happened, and the machinery this page
-models fired for real → [The $1B bill](/06-the-bill)
+That's the steady-state incidence. Then January 2025 happened → [The $1B bill](/06-the-bill)

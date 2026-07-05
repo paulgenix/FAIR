@@ -275,5 +275,4 @@ select * from fairplan.n16_participation_by_company
 
 ---
 
-A concentrated loss, a statewide bill and every step of that chain has an address.
-Every metric here has a geography → [Explore the map](/07-map)
+[Explore the map](/07-map)

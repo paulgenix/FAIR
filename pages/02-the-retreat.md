@@ -261,5 +261,4 @@ given non-renewal rate, which is the income gradient in reliance that the next p
 
 ---
 
-Where did those non-renewed homeowners go? Onto a balance sheet that was never built to carry
-them → [The FAIR Plan's Growth](/03-fair-balloons)
+Where did those non-renewed homeowners go? → [The FAIR Plan's Growth](/03-fair-balloons)

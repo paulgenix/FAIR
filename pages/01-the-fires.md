@@ -375,6 +375,5 @@ figures at capture time, not final post-season values.
 
 ---
 
-Insurers watched these same loss numbers accumulate — and where regulated rates couldn't
-follow the risk, they responded the only way left: by leaving. That response is the next
-page → [The insurance retreat](/02-the-retreat)
+Insurers watched these same loss numbers accumulate and where regulated rates couldn't
+follow the risk, they responded the only way left: by leaving. → [The insurance retreat](/02-the-retreat)

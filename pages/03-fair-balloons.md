@@ -163,5 +163,4 @@ residual (FAIR − DIC), and stays roughly flat because DIC growth only keeps pa
 
 ---
 
-A pool this size, this concentrated, and this basic has to be paid for by someone. First:
-who is actually in it? → [Who relies on FAIR](/04-who-relies)
+Who is actually in it? → [Who relies on FAIR](/04-who-relies)

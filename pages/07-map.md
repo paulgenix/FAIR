@@ -53,5 +53,5 @@ Plan are, almost without exception, below the state's median income.
 
 ---
 
-How the numbers were built, and what they can and cannot support →
+Data Sources→
 [Methods, data & caveats](/08-methods)

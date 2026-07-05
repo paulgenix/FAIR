@@ -188,6 +188,4 @@ where median_income is not null
 
 ---
 
-Exposure pro-rich, reliance pro-poor, premiums regressive: so who actually comes out ahead
-once the backstop benefit and the surcharge cost are netted on one ledger? →
-[Who pays — the net transfer](/05-who-pays)
+[Who pays](/05-who-pays)
